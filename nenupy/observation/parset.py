@@ -441,7 +441,6 @@ class Parset(object):
             line = file_object.readline()
             
             while line:
-                self.txt = self.txt + line 
                 try:
                     dicoName, content = line.split('.', 1)
                 except ValueError:
