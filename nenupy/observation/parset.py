@@ -303,7 +303,7 @@ class Parset(object):
                 pointing["receiver"] = {
                     "name": "undysputed",
                     "mode": "waveform",
-                    "source_name": config["src"],
+                    # "source_name": config["src"],
                     "frequency": self._get_frequency_dict(digibeam, field="subbandList")
                 }
             elif digibeam["toDo"].lower() == "dynamicspectrum":
